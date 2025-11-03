@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be found
 // at https://github.com/julienschmidt/httprouter/blob/master/LICENSE
 
-package gin
+package exgin
 
 import (
 	"net/url"
@@ -10,7 +10,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gin-gonic/gin/internal/bytesconv"
+	"github.com/jackie8tao/exgin/internal/bytesconv"
 )
 
 // Param is a single URL parameter, consisting of a key and a value.

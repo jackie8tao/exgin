@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package gin
+package exgin
 
 import (
 	"errors"
@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
+	"github.com/jackie8tao/exgin/binding"
+	"github.com/jackie8tao/exgin/render"
 )
 
 // Content-Type MIME of the most common data formats.

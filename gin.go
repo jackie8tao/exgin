@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package gin
+package exgin
 
 import (
 	"fmt"
@@ -15,9 +15,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gin-gonic/gin/internal/bytesconv"
-	filesystem "github.com/gin-gonic/gin/internal/fs"
-	"github.com/gin-gonic/gin/render"
+	"github.com/jackie8tao/exgin/internal/bytesconv"
+	filesystem "github.com/jackie8tao/exgin/internal/fs"
+	"github.com/jackie8tao/exgin/render"
 	"github.com/quic-go/quic-go/http3"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"

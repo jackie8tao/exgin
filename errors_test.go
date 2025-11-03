@@ -2,14 +2,14 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package gin
+package exgin
 
 import (
 	"errors"
 	"fmt"
 	"testing"
 
-	"github.com/gin-gonic/gin/codec/json"
+	"github.com/jackie8tao/exgin/codec/json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

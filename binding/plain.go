@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/gin-gonic/gin/internal/bytesconv"
+	"github.com/jackie8tao/exgin/internal/bytesconv"
 )
 
 type plainBinding struct{}

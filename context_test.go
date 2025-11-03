@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT style
 // license that can be found in the LICENSE file.
 
-package gin
+package exgin
 
 import (
 	"bytes"
@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/codec/json"
-	testdata "github.com/gin-gonic/gin/testdata/protoexample"
+	"github.com/jackie8tao/exgin/binding"
+	"github.com/jackie8tao/exgin/codec/json"
+	testdata "github.com/jackie8tao/exgin/testdata/protoexample"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

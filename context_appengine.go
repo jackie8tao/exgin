@@ -4,7 +4,7 @@
 
 //go:build appengine
 
-package gin
+package exgin
 
 func init() {
 	defaultPlatform = PlatformGoogleAppEngine

@@ -1,4 +1,4 @@
-package gin
+package exgin
 
 import (
 	"errors"

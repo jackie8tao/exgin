@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gin-gonic/gin/codec/json"
+	"github.com/jackie8tao/exgin/codec/json"
 )
 
 // EnableDecoderUseNumber is used to call the UseNumber method on the JSON
